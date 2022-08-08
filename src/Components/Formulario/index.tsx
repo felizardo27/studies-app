@@ -14,7 +14,9 @@ class Formulario extends React.Component {
                     <label htmlFor="tempo">Tempo</label>
                     <input type="time" name="tempo" id="tempo"  step="1" min="00:00:00" max="01:30:00"  required/>
                 </div>
-                <Botao />
+                <Botao>
+                    Adicionar
+                </Botao>
             </form>
         );
     }
