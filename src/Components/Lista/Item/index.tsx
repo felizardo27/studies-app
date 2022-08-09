@@ -1,5 +1,5 @@
 import { ITarefas } from '../../../Interfaces/tarefas';
-import styles from '../Lista.module.scss'
+import styles from './Item.module.scss'
 
 interface Props extends ITarefas {
   selecionaTarefa: (tarefaSelecionada: ITarefas) => void
